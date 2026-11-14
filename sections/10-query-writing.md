@@ -14,6 +14,8 @@ SELECT STUDENT_NAME
 FROM STUDENT
 WHERE STUDENT_ID = 3;
 ```
+<img width="1008" height="538" alt="image" src="https://github.com/user-attachments/assets/0338ef3d-1311-497f-9599-553dd2a535ba" />
+
 
 ### Query 2: Calculate Total Credits Completed
 
