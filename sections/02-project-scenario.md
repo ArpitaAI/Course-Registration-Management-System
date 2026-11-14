@@ -1,7 +1,7 @@
 
 # 2. Project Scenario
 
-**Marks:**
+
 
 In a course registration management system, one student have many sections and many student have one section.
 
