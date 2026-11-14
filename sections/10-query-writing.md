@@ -26,6 +26,8 @@ SELECT SUM(CREDIT_COMPLETE) AS Total_Credits_Completed
 FROM STUDENT
 WHERE STUDENT_ID = 4;
 ```
+<img width="1008" height="536" alt="image" src="https://github.com/user-attachments/assets/fd27bcdf-2398-4274-a436-09d442e29f44" />
+
 
 ---
 
@@ -39,6 +41,8 @@ Calculate the average CGPA of all students in the STUDENT table.
 SELECT AVG(CGPA) AS Average_CGPA
 FROM STUDENT;
 ```
+<img width="1008" height="538" alt="image" src="https://github.com/user-attachments/assets/58b35480-0f5c-4b1b-a5b5-052f8fbaa5e8" />
+
 
 ### Query 2: Count Students in Each Department
 
@@ -47,6 +51,8 @@ SELECT DEPT_ID, COUNT(*) AS Student_Count
 FROM STUDENT
 GROUP BY DEPT_ID;
 ```
+<img width="1008" height="538" alt="image" src="https://github.com/user-attachments/assets/5ff8d68b-8d0e-4882-a6e7-1ccb3fd9290b" />
+
 
 ---
 
@@ -64,6 +70,8 @@ WHERE CREDIT_COMPLETE > (
     FROM STUDENT
 );
 ```
+<img width="1008" height="511" alt="image" src="https://github.com/user-attachments/assets/e2ece2db-9c55-4ab7-a197-d5ffd34ffefe" />
+
 
 ### Query 2: Students with CGPA Greater Than Department Average
 
@@ -78,6 +86,8 @@ WHERE CGPA > (
     WHERE s2.DEPT_ID = STUDENT.DEPT_ID
 );
 ```
+<img width="1008" height="539" alt="image" src="https://github.com/user-attachments/assets/990bcdfe-c05b-4b66-9690-cc4e6b314485" />
+
 
 ---
 
@@ -91,6 +101,8 @@ FROM COURSE C
 JOIN SECTION S
 ON C.COURSE_ID = S.SECTION_ID;
 ```
+<img width="1008" height="533" alt="image" src="https://github.com/user-attachments/assets/e6785507-19c3-42eb-85c8-095f4ce5038b" />
+
 
 ### Query 2: Retrieve Student Registration Information
 
@@ -117,6 +129,8 @@ JOIN FACULTY F
 JOIN SECTION SEC
     ON SR.SECTION_ID = SEC.SECTION_ID;
 ```
+<img width="1008" height="539" alt="image" src="https://github.com/user-attachments/assets/b5e7fba8-746b-4e52-9d12-5a834fc647b0" />
+
 
 ---
 
@@ -139,6 +153,8 @@ GROUP BY C.COURSE_ID, C.COURSE_NAME;
 
 SELECT * FROM Course_Enrollment;
 ```
+<img width="1008" height="517" alt="image" src="https://github.com/user-attachments/assets/c827e84d-bc1f-4632-8a02-4ed0394a7003" />
+
 
 ### View 2: Student Enrollment Information
 
@@ -173,6 +189,8 @@ LEFT JOIN ADDING_DROPING AD
 
 SELECT * FROM Student_Enrollment_Info;
 ```
+<img width="1008" height="534" alt="image" src="https://github.com/user-attachments/assets/3a18babb-0046-4eb4-b99f-f99e00eda0c2" />
+
 
 ---
 
